@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Workshop Angular Indra!';
+  foto: string = 'favicon.ico';
+
+  msgAlerta(): void {
+    alert('Workshop Angular Indra!');
+  }
 }
+
+
