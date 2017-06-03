@@ -1,3 +1,4 @@
+import { AlertaService } from './alerta.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -9,9 +10,12 @@ export class AppComponent {
   title = 'Workshop Angular Indra!';
   foto: string = 'favicon.ico';
 
-  msgAlerta(): void {
-    alert('Workshop Angular Indra!');
-  }
+  constructor (private service: AlertaService){
+
+ }
+
+ 
+
 }
 
 

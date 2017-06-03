@@ -1,3 +1,4 @@
+import { AlertaService } from './alerta.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -16,7 +17,7 @@ import { ListaPessoaComponent } from './lista-pessoa/lista-pessoa.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [AlertaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
